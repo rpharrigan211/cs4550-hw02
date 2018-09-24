@@ -1,10 +1,10 @@
 defmodule Practice.Factor do
-  def factor(x) do
-    findfactors(x, 2, [])
+  def factor(x) when x==1 do
+    []
   end
 
-  def factor(1) do
-    []
+  def factor(x) do
+    findfactors(x, 2, [])
   end
 
   defp findfactors(x, i, factor_list) do
