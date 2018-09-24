@@ -11,7 +11,6 @@ defmodule Practice.Calc do
     |> String.split(~r/\s+/)
     |> hd
     |> parse_float
-    |> :math.sqrt()
 
     # Hint:
     # expr
