@@ -10,7 +10,8 @@ defmodule Practice.Calc do
     expr
     |> String.split(~r/\s+/)
     |> hd
-    |> parse_float
+
+    #TODO: FINISH THIS!
 
     # Hint:
     # expr
